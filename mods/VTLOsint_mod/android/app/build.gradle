@@ -1,0 +1,25 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.vtlo.osint'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'com.vtlo.osint'
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+    signingConfigs {
+        release {
+            storeFile file(System.getenv('VTLO_KEYSTORE') ?: '../../vtlo.keystore')
+            storePassword System.getenv('VTLO_KS_PASS') ?: 'vtlosint'
+            keyAlias 'vtlo'
+            keyPassword System.getenv('VTLO_KS_PASS') ?: 'vtlosint'
+        }
+    }
+    buildTypes {
+        release { minifyEnabled false; signingConfig signingConfigs.release }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    lint { abortOnError false; checkReleaseBuilds false }
+}
