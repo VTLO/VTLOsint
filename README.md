@@ -8,6 +8,8 @@
 | --- | --- | --- |
 | [`downloads/VTLOsint.apk`](downloads/VTLOsint.apk) | Android 8.0+ | Ouvrez le fichier sur le téléphone et autorisez l'installation. Si une ancienne version (paquet `io.github.osintcheatsheet`) est installée, désinstallez-la d'abord. |
 | [`downloads/VTLOsint-web.zip`](downloads/VTLOsint-web.zip) | PC (Windows, macOS, Linux) | Décompressez, puis ouvrez `VTLOsint-web/index.html` dans Chrome, Edge ou Firefox. |
+| [`mods/VTLOsint_mod/downloads/VTLOsint_mod.apk`](mods/VTLOsint_mod/downloads/VTLOsint_mod.apk) | Android 7.0+ | **VTLOsint_mod** (mod indépendant, paquet `com.vtlo.osint`, s'installe à côté de VTLOsint). Ouvrez le fichier et autorisez l'installation. |
+| [`mods/VTLOsint_mod/downloads/VTLOsint_mod.html`](mods/VTLOsint_mod/downloads/VTLOsint_mod.html) | Tout navigateur | **VTLOsint_mod** en un seul fichier, fonctionne hors ligne : téléchargez-le puis ouvrez-le. |
 
 ![VTLOsint](docs/screenshots.png)
 
