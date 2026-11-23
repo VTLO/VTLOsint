@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VTLOsint</title>
+<meta name="description" content="VTLOsint — pipeline d'enquête OSINT">
+<meta name="theme-color" content="#171B22">
+<link rel="icon" href="icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/">
+    <h1>VTLOSINT</h1>
+    <p class="subtitle">PIPELINE D'ENQUÊTE OSINT</p>
+    <p class="stats" id="stats"></p>
+  </a>
+  <input id="search" type="search" autocomplete="off" aria-label="Rechercher">
+  <nav class="quick">
+    <button class="quick-btn" data-action="dorks"><svg viewBox="0 0 24 24"><path d="M21,12A9,9 0,1 1,3 12A9,9 0,1 1,21 12M12,3C8,7 8,17 12,21M12,3C16,7 16,17 12,21M3,12H21M5,7.5H19M5,16.5H19"/></svg><span>Dorks</span></button>
+    <button class="quick-btn" data-action="exif"><svg viewBox="0 0 24 24"><path d="M3,8H7L9,5H15L17,8H21V19H3ZM15.5,13A3.5,3.5 0,1 1,8.5 13A3.5,3.5 0,1 1,15.5 13"/></svg><span>EXIF</span></button>
+    <button class="quick-btn" data-action="terminal"><svg viewBox="0 0 24 24"><path d="M3,5H21V19H3ZM7,10L10,12.5L7,15M12,15H17"/></svg><span>Terminal</span></button>
+    <button class="quick-btn" data-action="guide"><svg viewBox="0 0 24 24"><path d="M12,21A9,9 0,1 1,12 3A9,9 0,1 1,12 21M9.5,9.5A2.5,2.5 0,1 1,13 11.8C12.3,12.2 12,12.7 12,13.5M12,16.8V17"/></svg><span>Guide</span></button>
+  </nav>
+</header>
+
+<main id="view"></main>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <button class="modal-close" aria-label="Fermer">×</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<div class="guide" id="guide" hidden></div>
+<div class="toast" id="toast"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

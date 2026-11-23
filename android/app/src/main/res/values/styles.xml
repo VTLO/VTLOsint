@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette from the pipeline infographic: charcoal, electric blue, greys and white. -->
+    <color name="bg">#171B22</color>
+    <color name="surface">#1F2530</color>
+    <color name="blue">#2F9BEF</color>
+    <color name="text">#F2F4F7</color>
+    <color name="text_dim">#8C96A3</color>
+    <color name="key">#2F9BEF</color>
+    <color name="key_pressed">#1F5F94</color>
+    <color name="key_text">#FFFFFF</color>
+    <color name="icon_bg">#C45A36</color>
+
+    <style name="AppTheme" parent="android:Theme.Material">
+        <item name="android:colorPrimary">@color/bg</item>
+        <item name="android:colorPrimaryDark">@color/bg</item>
+        <item name="android:colorAccent">@color/blue</item>
+        <item name="android:colorControlNormal">@color/blue</item>
+        <item name="android:colorControlActivated">@color/blue</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/text_dim</item>
+        <item name="android:textColorHint">@color/text_dim</item>
+        <item name="android:textColorLink">@color/blue</item>
+        <item name="android:textColorHighlight">#662F9BEF</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionBarTheme">@style/ActionBarOverlay</item>
+        <item name="android:actionBarPopupTheme">@style/Popup</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:alertDialogTheme">@style/Dialog</item>
+    </style>
+
+    <!-- Home screen draws its own infographic-style header. -->
+    <style name="AppTheme.Home">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ActionBar" parent="android:Widget.Material.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_bg</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="ActionBarTitle" parent="android:TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="ActionBarOverlay" parent="android:ThemeOverlay.Material.Dark">
+        <item name="android:colorControlNormal">@color/blue</item>
+        <item name="android:textColorPrimary">@color/text</item>
+    </style>
+
+    <style name="Popup" parent="android:ThemeOverlay.Material.Dark">
+        <item name="android:colorBackground">@color/surface</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <!-- Solid blue key, like the infographic's tabs. -->
+    <style name="Button" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/btn_key</item>
+        <item name="android:textColor">@color/key_text</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:minHeight">46dp</item>
+    </style>
+
+    <style name="EditText" parent="android:Widget.Material.EditText">
+        <item name="android:background">@drawable/edit_bg</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textColorHint">@color/text_dim</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="Dialog" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">@color/blue</item>
+        <item name="android:colorControlNormal">@color/blue</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/text_dim</item>
+        <item name="android:textColorHint">@color/text_dim</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:textColorAlertDialogListItem">@color/text</item>
+        <item name="android:textAppearanceListItemSmall">@style/DialogListItem</item>
+    </style>
+
+    <style name="DialogListItem" parent="android:TextAppearance.Material.Subhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+</resources>

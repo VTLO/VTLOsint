@@ -1,0 +1,47 @@
+name: VTLOsint builds
+
+on:
+  push:
+    paths:
+      - data/**
+      - android/**
+      - web/build.py
+      - web/src/**
+      - .github/workflows/android.yml
+  pull_request:
+    paths:
+      - data/**
+      - android/**
+      - web/build.py
+      - web/src/**
+  workflow_dispatch:
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: android
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - name: Build APK
+        run: ./gradlew assembleRelease --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: VTLOsint-apk
+          path: android/app/build/outputs/apk/release/app-release.apk
+
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build PC web app
+        run: python3 web/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: VTLOsint-web
+          path: web/dist
