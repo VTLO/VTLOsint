@@ -9,7 +9,7 @@ Le <b>pipeline ciblage/prépa d'enquête</b> en six phases et le <b>toolkit Cyb3
 <tr>
 <td width="50%" valign="top" align="center">
 <img src="web/dist/icon.png" width="84" alt="VTLOsint"><br>
-<h3>APK 1 · VTLOsint</h3>
+<h3>App 1 · VTLOsint</h3>
 <sub>Android 8.0+ · application autonome</sub><br><br>
 <a href="downloads/VTLOsint.apk?raw=true"><img src="https://img.shields.io/badge/T%C3%89L%C3%89CHARGER-APK%201%20%C2%B7%20VTLOsint-2F9BEF?style=for-the-badge&logo=android&logoColor=white&labelColor=171B22" alt="Télécharger VTLOsint.apk"></a><br>
 <a href="downloads/VTLOsint-web.zip?raw=true"><img src="https://img.shields.io/badge/VERSION%20PC-ZIP-2580C9?style=flat-square&labelColor=171B22" alt="Version PC"></a><br><br>
@@ -18,7 +18,7 @@ recherche, favoris, générateur de Google Dorks,<br>lecteur/nettoyeur EXIF, lan
 </td>
 <td width="50%" valign="top" align="center">
 <img src="mods/VTLOsint_mod/docs/icons/icon-192.png" width="84" alt="VTLOsint_mod"><br>
-<h3>APK 2 · VTLOsint_mod</h3>
+<h3>App 2 · VTLOsint_mod</h3>
 <sub>Android 7.0+ · paquet <code>com.vtlo.osint</code> · mod indépendant</sub><br><br>
 <a href="mods/VTLOsint_mod/downloads/VTLOsint_mod.apk?raw=true"><img src="https://img.shields.io/badge/T%C3%89L%C3%89CHARGER-APK%202%20%C2%B7%20VTLOsint__mod-66D0DF?style=for-the-badge&logo=android&logoColor=white&labelColor=222858" alt="Télécharger VTLOsint_mod.apk"></a><br>
 <a href="mods/VTLOsint_mod/downloads/VTLOsint_mod.html?raw=true"><img src="https://img.shields.io/badge/VERSION%20WEB-HTML%20UNIQUE-FFB81C?style=flat-square&labelColor=222858" alt="Version web"></a><br><br>
@@ -28,18 +28,15 @@ recherche, favoris, générateur de Google Dorks,<br>lecteur/nettoyeur EXIF, lan
 </tr>
 </table>
 
-> **Installation** : ouvrez l'APK sur le téléphone et autorisez les sources inconnues. Les deux applications ont des paquets différents : vous pouvez installer **les deux**. Si une très ancienne version de VTLOsint (paquet `io.github.osintcheatsheet`) est présente, désinstallez-la d'abord.
+## Pourquoi deux versions complémentaires ?
 
-## Quelle APK pour quel besoin ?
-
-| | **APK 1 · VTLOsint** | **APK 2 · VTLOsint_mod** |
+| | **🔎 1 · VTLOsint** | **🔎 2 · VTLOsint_mod** |
 | --- | --- | --- |
-| Idée | Une enquête = six phases, du brut à la vérification | Un annuaire d'outils + des vérifications lancées en direct |
-| Contenu | 555 outils (WEB et TERMINAL) | 329 ressources du classeur CyberSudo |
-| Ambiance | Noir `#171B22` · bleu `#2F9BEF` · cartes à onglets `PHASE n` | Marine `#43497D` · turquoise `#66D0DF` · accents jaunes |
+| 💡 | Une enquête = six phases, du brut à la vérification | Un annuaire d'outils + des vérifications lancées en direct |
+| Contenu | 555 outils (WEB et TERMINAL) | 329 ressources du classeur CyberSudo[mod R/B team] |
 | Outils en ligne de commande | Termux (Sherlock, Maigret, GHunt…) | — |
-| Requêtes en direct | — | Live Lab (APIs ouvertes) |
-| Dorks / EXIF | Générateur de dorks, lecteur/nettoyeur EXIF | Dorks téléphone pré-remplis |
+| Requêtes en direct | — | Live Lab (APIs communautaires free usage) |
+| Dorks / EXIF | Générateur de dorks, reader/cleaner EXIF | Dorks Innovants pre-scriptés |
 | Favoris | oui | oui, plus notes d'enquête et mode privé |
 | Autre version | Application PC (zip) | Fichier HTML unique / PWA |
 
@@ -49,7 +46,7 @@ recherche, favoris, générateur de Google Dorks,<br>lecteur/nettoyeur EXIF, lan
 
 ![VTLOsint](docs/screenshots.png)
 
-**APK 2 · VTLOsint_mod**
+**App 2 · VTLOsint_mod**
 
 <p align="center"><img src="mods/VTLOsint_mod/docs/screens/home.png" width="230" alt="Accueil"> <img src="mods/VTLOsint_mod/docs/screens/menu.png" width="230" alt="Menu"> <img src="mods/VTLOsint_mod/docs/screens/lab.png" width="230" alt="Live Lab"></p>
 
