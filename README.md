@@ -2,8 +2,8 @@
 
 <h1 align="center">VTLOsint <sub>×</sub> VTLOsint_mod</h1>
 
-<p align="center"><b>Deux APK OSINT, installables côte à côte sur le même téléphone.</b><br>
-Le <b>pipeline d'enquête</b> en six phases et le <b>toolkit CyberSudo</b> avec outils en direct.</p>
+<p align="center"><b>2 Toolkits OSINT pour des résultats complets et détaillés - tout types de recherches *Open Source Intelligent Network*.</b><br>
+Le <b>pipeline ciblage/prépa d'enquête</b> en six phases et le <b>toolkit Cyb3rSudo_Red/Blue/Black</b> avec outils d'exploitation par requêtes en direct.</p>
 
 <table>
 <tr>
