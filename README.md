@@ -1,19 +1,61 @@
-<p align="center"><img src="docs/banner.svg" alt="VTLOsint et VTLOsint_mod" width="100%"></p>
+<p align="center"><img src="docs/banner.svg" alt="VTLOsint (APK 1) et VTLOsint_mod (APK 2) en fonctionnement" width="100%"></p>
 
-# VTLOsint
+<h1 align="center">VTLOsint <sub>×</sub> VTLOsint_mod</h1>
 
-**Pipeline d'enquête OSINT** — plus de 550 outils OSINT rangés en six phases, sur Android et sur PC.
+<p align="center"><b>Deux APK OSINT, installables côte à côte sur le même téléphone.</b><br>
+Le <b>pipeline d'enquête</b> en six phases et le <b>toolkit CyberSudo</b> avec outils en direct.</p>
 
-| Télécharger | Plateforme | Utilisation |
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<img src="web/dist/icon.png" width="84" alt="VTLOsint"><br>
+<h3>APK 1 · VTLOsint</h3>
+<sub>Android 8.0+ · application autonome</sub><br><br>
+<a href="downloads/VTLOsint.apk?raw=true"><img src="https://img.shields.io/badge/T%C3%89L%C3%89CHARGER-APK%201%20%C2%B7%20VTLOsint-2F9BEF?style=for-the-badge&logo=android&logoColor=white&labelColor=171B22" alt="Télécharger VTLOsint.apk"></a><br>
+<a href="downloads/VTLOsint-web.zip?raw=true"><img src="https://img.shields.io/badge/VERSION%20PC-ZIP-2580C9?style=flat-square&labelColor=171B22" alt="Version PC"></a><br><br>
+555 outils · 73 sections · 6 phases<br>
+recherche, favoris, générateur de Google Dorks,<br>lecteur/nettoyeur EXIF, lancement Termux,<br>guide animé en français
+</td>
+<td width="50%" valign="top" align="center">
+<img src="mods/VTLOsint_mod/docs/icons/icon-192.png" width="84" alt="VTLOsint_mod"><br>
+<h3>APK 2 · VTLOsint_mod</h3>
+<sub>Android 7.0+ · paquet <code>com.vtlo.osint</code> · mod indépendant</sub><br><br>
+<a href="mods/VTLOsint_mod/downloads/VTLOsint_mod.apk?raw=true"><img src="https://img.shields.io/badge/T%C3%89L%C3%89CHARGER-APK%202%20%C2%B7%20VTLOsint__mod-66D0DF?style=for-the-badge&logo=android&logoColor=white&labelColor=222858" alt="Télécharger VTLOsint_mod.apk"></a><br>
+<a href="mods/VTLOsint_mod/downloads/VTLOsint_mod.html?raw=true"><img src="https://img.shields.io/badge/VERSION%20WEB-HTML%20UNIQUE-FFB81C?style=flat-square&labelColor=222858" alt="Version web"></a><br><br>
+329 ressources · 19 catégories<br>
+<b>Live Lab</b> : DNS, RDAP, certificats, IP, VIN, Wi‑Fi…<br>recherche globale, favoris, notes locales,<br>mode privé, navigateur intégré, PWA
+</td>
+</tr>
+</table>
+
+> **Installation** : ouvrez l'APK sur le téléphone et autorisez les sources inconnues. Les deux applications ont des paquets différents : vous pouvez installer **les deux**. Si une très ancienne version de VTLOsint (paquet `io.github.osintcheatsheet`) est présente, désinstallez-la d'abord.
+
+## Quelle APK pour quel besoin ?
+
+| | **APK 1 · VTLOsint** | **APK 2 · VTLOsint_mod** |
 | --- | --- | --- |
-| [`downloads/VTLOsint.apk`](downloads/VTLOsint.apk) | Android 8.0+ | Ouvrez le fichier sur le téléphone et autorisez l'installation. Si une ancienne version (paquet `io.github.osintcheatsheet`) est installée, désinstallez-la d'abord. |
-| [`downloads/VTLOsint-web.zip`](downloads/VTLOsint-web.zip) | PC (Windows, macOS, Linux) | Décompressez, puis ouvrez `VTLOsint-web/index.html` dans Chrome, Edge ou Firefox. |
-| [`mods/VTLOsint_mod/downloads/VTLOsint_mod.apk`](mods/VTLOsint_mod/downloads/VTLOsint_mod.apk) | Android 7.0+ | **VTLOsint_mod** (mod indépendant, paquet `com.vtlo.osint`, s'installe à côté de VTLOsint). Ouvrez le fichier et autorisez l'installation. |
-| [`mods/VTLOsint_mod/downloads/VTLOsint_mod.html`](mods/VTLOsint_mod/downloads/VTLOsint_mod.html) | Tout navigateur | **VTLOsint_mod** en un seul fichier, fonctionne hors ligne : téléchargez-le puis ouvrez-le. |
+| Idée | Une enquête = six phases, du brut à la vérification | Un annuaire d'outils + des vérifications lancées en direct |
+| Contenu | 555 outils (WEB et TERMINAL) | 329 ressources du classeur CyberSudo |
+| Ambiance | Noir `#171B22` · bleu `#2F9BEF` · cartes à onglets `PHASE n` | Marine `#43497D` · turquoise `#66D0DF` · accents jaunes |
+| Outils en ligne de commande | Termux (Sherlock, Maigret, GHunt…) | — |
+| Requêtes en direct | — | Live Lab (APIs ouvertes) |
+| Dorks / EXIF | Générateur de dorks, lecteur/nettoyeur EXIF | Dorks téléphone pré-remplis |
+| Favoris | oui | oui, plus notes d'enquête et mode privé |
+| Autre version | Application PC (zip) | Fichier HTML unique / PWA |
+
+## Aperçu
+
+**APK 1 · VTLOsint**
 
 ![VTLOsint](docs/screenshots.png)
 
-## Les six phases
+**APK 2 · VTLOsint_mod**
+
+<p align="center"><img src="mods/VTLOsint_mod/docs/screens/home.png" width="230" alt="Accueil"> <img src="mods/VTLOsint_mod/docs/screens/menu.png" width="230" alt="Menu"> <img src="mods/VTLOsint_mod/docs/screens/lab.png" width="230" alt="Live Lab"></p>
+
+Détails du mod, compilation et crédits : [`mods/VTLOsint_mod`](mods/VTLOsint_mod/).
+
+## VTLOsint · les six phases
 
 1. **Recherche** — moteurs, dorks, archives, fichiers, code et dark web.
 2. **Identités** — pseudos, téléphones, e-mails, fuites de données, registres publics.
@@ -41,10 +83,12 @@ Aussi inclus : recherche dans tous les outils, favoris, générateur de Google D
 ## Structure du projet
 
 ```
-data/       tools.md, articles.md (la liste d'outils) et phases.json (classement en phases)
-android/    application Android (Java, sans dépendance)
-web/        application PC : src/ (sources), build.py, dist/ (version prête à l'emploi)
-downloads/  APK et application PC prêts à télécharger
+data/                 tools.md, articles.md (la liste d'outils) et phases.json (classement en phases)
+android/              APK 1 · VTLOsint (Java, sans dépendance)
+web/                  VTLOsint PC : src/ (sources), build.py, dist/ (version prête à l'emploi)
+downloads/            APK 1 et VTLOsint PC prêts à télécharger
+mods/VTLOsint_mod/    APK 2 · VTLOsint_mod : sources web + Android, downloads/ (APK, HTML)
+docs/                 bannière animée et captures
 ```
 
 Pour ajouter un outil, éditez `data/tools.md` : une ligne `- [Nom](https://url) description` sous la bonne
