@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/banner.svg" alt="VTLOsint (APK 1) et VTLOsint_mod (APK 2) en fonctionnement" width="100%"></p>
+<p align="center"><img src="docs/banner.svg" alt="VTLOsint (APK 1) and VTLOsint_mod (APK 2) at work" width="100%"></p>
 
 <h1 align="center">VTLOsint <sub>×</sub> VTLOsint_mod</h1>
 
