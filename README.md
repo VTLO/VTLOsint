@@ -57,12 +57,9 @@ python3 web/build.py                        # -> web/dist et downloads/VTLOsint-
 cd android && ./gradlew assembleRelease     # -> app/build/outputs/apk/release/app-release.apk (JDK 17+, SDK 34)
 ```
 
-La CI GitHub (`.github/workflows/build.yml`) recompile les deux à chaque modification de `data/`, `android/` ou `web/`.
+La CI GitHub (`.github/workflows/build.yml`) recompile les deux applicatifs à chaque modification de `data/`, `android/` ou `web/`.
 L'APK est signé avec la clé de debug Android pour s'installer directement ; signez-le avec votre propre clé pour le distribuer.
 
-## Crédits
+❎❎## Run only on authorized target/scope **⚠️Avoid Problems Or be sm@rter than them 🙃✅✅
 
-Liste d'outils issue de l'[OSINT Cheat Sheet](https://github.com/Jieyab89/OSINT-Cheat-sheet) de Jieyab89.
-Polices Montserrat et VT323 sous licence SIL Open Font License 1.1.
-
-> Utilisez ces outils légalement, uniquement sur des cibles que vous êtes autorisé à étudier.
+⤵️ Utilisez ces outils légalement, uniquement sur des cibles que vous êtes autorisé à étudier.
